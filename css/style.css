@@ -4,3 +4,9 @@
     margin: 0px;
     box-sizing: border-box;
 }
+#root {
+    text-align: center;
+}
+#root img {
+    width: 350px;
+}
