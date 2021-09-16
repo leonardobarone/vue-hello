@@ -13,6 +13,10 @@
         <div id="root">
            <h1>{{title}}</h1>
            <img v-bind:src="img" alt="">
+           <ul>
+               <li v-for="studente in studenti">{{studente}}</li>
+            </ul>
+            <button v-on:click="inserisci">Inserisci</button>
         </div>
 
 
